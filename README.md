@@ -1,7 +1,7 @@
 # scripts
-`npm run dev` - собрать в дев моде
-`npm run build` - собрать в прод моде
-`npm run watch` - сборка в дев моде с "горячим" режимом
+`npm run dev` - собрать в дев моде <br/>
+`npm run build` - собрать в прод моде <br/>
+`npm run watch` - сборка в дев моде с "горячим" режимом <br/>
 
 # problems
 `start": "cross-env NODE_ENV=development webpack serve --mode development` - не работает, какая-то ошибка у самого вебпака
