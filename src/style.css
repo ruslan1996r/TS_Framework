@@ -1,0 +1,18 @@
+@import "./assets/styles.css/fonts.css"; /* импортирую сюда все стили из этого файла */
+body {
+	font-family: "Roboto-Regular", sans-serif;
+}
+
+h1 {
+	color: green;
+	font-family: monospace;
+	font-size: 40px;
+}
+
+.logo {
+	background-image: url("./assets/pepe.png");
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}

@@ -1,0 +1,40 @@
+{
+	"name": "ts_framework",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development webpack --mode development",
+		"build": "cross-env NODE_ENV=production webpack --mode production",
+		"watch": "cross-env NODE_ENV=development webpack --mode development --watch",
+		"start": "webpack serve --config webpack.config.js"
+	},
+	"browserslist": "> 0.25%, not dead",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.12.10",
+		"@babel/plugin-syntax-class-properties": "^7.12.1",
+		"@babel/polyfill": "^7.12.1",
+		"@babel/preset-env": "^7.12.11",
+		"@babel/preset-typescript": "^7.12.7",
+		"babel-loader": "^8.2.2",
+		"clean-webpack-plugin": "^3.0.0",
+		"copy-webpack-plugin": "^6.4.1",
+		"cross-env": "^7.0.3",
+		"css-loader": "^4.3.0",
+		"file-loader": "^6.2.0",
+		"html-webpack-plugin": "^4.4.1",
+		"mini-css-extract-plugin": "^1.3.4",
+		"optimize-css-assets-webpack-plugin": "^5.0.4",
+		"style-loader": "^1.3.0",
+		"terser-webpack-plugin": "^4.2.3",
+		"webpack": "^4.44.1",
+		"webpack-cli": "^4.3.0",
+		"webpack-dev-server": "^3.11.2"
+	},
+	"dependencies": {
+		"jquery": "^3.5.1"
+	}
+}
