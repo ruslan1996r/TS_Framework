@@ -1,0 +1,18 @@
+p {
+	color: red;
+	font-size: 30px;
+}
+
+h1 {
+	color: green;
+	font-family: monospace;
+	font-size: 40px;
+}
+
+.logo {
+	background-image: url("../pepe.png");
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}

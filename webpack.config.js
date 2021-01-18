@@ -62,7 +62,9 @@ const babelOptions = (preset) => {
     const opts = {
         presets: ['@babel/preset-env'],
         plugins: [
-            ['@babel/plugin-proposal-class-properties']
+            ["@babel/plugin-proposal-decorators", { "legacy": true }],
+            ['@babel/plugin-proposal-class-properties', { "loose": true }],
+            ["@babel/plugin-transform-typescript", { "allowNamespaces": true, "allowDeclareFields": true }]
         ]
     }
     if (preset) {
