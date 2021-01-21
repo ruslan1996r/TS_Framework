@@ -1,3 +1,6 @@
-// import * as $ from "jquery"
+// import { NamespaceUser, ObjInter, HelloType } from "./namespace"
 
-// $("pre").html(JSON.stringify({ name: "putin" }))
+import { ComponentProxy } from "./test";
+
+const comp = new ComponentProxy("hello!")
+// console.log("comp", comp)

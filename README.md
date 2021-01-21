@@ -11,4 +11,5 @@
 Вызов этой команды происходит прямо в консоли
 Ссылка на ошибку: https://github.com/webpack/webpack-cli/issues/1976#issuecomment-715057073
 
+`ctrl + shift + p` чтобы открыть Quokka.js (в лайв режиме показывает то, что выводит код)
 <!-- Ссылка на Минина (вебпак): https://youtu.be/eSaF8NXeNsA?t=5429 -->
